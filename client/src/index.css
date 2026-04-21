@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(
+    135deg,
+    #e0f2fe,
+    #f8fafc
+  );
+}
+.dark {
+  background-color: #0f172a;
+  color: white;
+}
+
+.dark .bg-white {
+  background-color: #1e293b !important;
+  color: white;
+}
+
+.dark input,
+.dark select {
+  background-color: #1e293b;
+  color: white;
+  border: 1px solid #475569;
+}
+
+.dark button {
+  opacity: 0.9;
+}
